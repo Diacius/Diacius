@@ -6,7 +6,7 @@
 - 🔭 I’m currently working on a complete order and payment system
 - 🌱 I’m currently learning node.js
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: I can't whistle
+- ⚡ Fun fact: I own 5 Raspberry Pis
 - 💬 Ask me about HTML/CSS
 <!-- - 👯 I’m looking to collaborate on ... 
 - 🤔 I’m looking for help with ...
