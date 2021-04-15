@@ -3,8 +3,8 @@
 <!--
 **Diacius/Diacius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
-- 🔭 I’m currently working on a complete order and payment system
-- 🌱 I’m currently learning node.js
+- 🔭 I’m currently working on my new website
+- 🌱 I’m currently learning JavaScript
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I own 5 Raspberry Pis
 - 💬 Ask me about HTML/CSS
