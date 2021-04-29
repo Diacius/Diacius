@@ -1,5 +1,6 @@
 ### Hi there 👋
-![Metrics](https://metrics.lecoq.io/Diacius?template=classic&stars=1&introduction=1&habits=1&traffic=1&projects=1&achievements=1&introduction.title=true&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&stars.limit=4&projects.limit=4&projects.descriptions=false&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&config.timezone=Europe%2FLondon)
+![Metrics](https://metrics.lecoq.io/Diacius?template=classic&stars=1&introduction=1&habits=1&traffic=1&projects=1&achievements=1&introduction.title=true&habits.from=200&habits.days=14&habits.facts=true&habits.charts=true&stars.limit=4&projects.limit=4&projects.descriptions=false&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&config.timezone=Europe%2FLondon)
+
 
 <!--
 **Diacius/Diacius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
