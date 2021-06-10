@@ -1,8 +1,7 @@
-### Hi there 👋
+<!--### Hi there 👋
 ![Metrics](https://github.com/diacius/diacius/blob/main/github-metrics.svg)
-<!--
+
 **Diacius/Diacius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
 - 🔭 I’m currently working on my new website
 - 🌱 I’m currently learning JavaScript
 - 😄 Pronouns: He/Him
