@@ -1,12 +1,3 @@
-<!--### Hi there 👋
-![Metrics](https://github.com/diacius/diacius/blob/main/github-metrics.svg)
+### Any Pronouns!
 
-**Diacius/Diacius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-- 🔭 I’m currently working on my new website
-- 🌱 I’m currently learning JavaScript
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I own 5 Raspberry Pis
-- 💬 Ask me about HTML/CSS
-<!-- - 👯 I’m looking to collaborate on ... 
-- 🤔 I’m looking for help with ...
-- 📫 How to reach me: ... -->
+#### Currently working on a new website with [Hugo](gohugo.io) and the [Ink](https://themes.gohugo.io/themes/hugo-ink/) theme.
