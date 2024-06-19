@@ -106,7 +106,7 @@
 		(descr "UFD Package, 4-Lead Plastic QFN (2mm x 2mm), http://ams.com/eng/content/download/950231/2267959/483138")
 		(tags "QFN 0.95")
 		(property "Reference" "U1"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "ccb1b86c-64eb-4f98-a4b1-58bc16df7d48")
 			(effects
@@ -117,7 +117,7 @@
 			)
 		)
 		(property "Value" "ENS210"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "367dcfe0-647f-4f0e-a449-ed6ae7a4437a")
 			(effects
@@ -294,7 +294,7 @@
 			(uuid "909fdba9-a457-495a-82cc-7febb1c36b30")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d7219779-a8de-4b9c-94df-d8367fd1d079")
 			(effects
@@ -378,7 +378,7 @@
 		(descr "GCT USB1046, USB Type A, https://gct.co/files/drawings/usb1046.pdf")
 		(tags "USB SMD Type-A Receptacle Right Angle")
 		(property "Reference" "J1"
-			(at 0 -10 360)
+			(at 0 -10 0)
 			(layer "F.SilkS")
 			(uuid "1f95c5de-08c1-4976-996f-2977706c494a")
 			(effects
@@ -389,7 +389,7 @@
 			)
 		)
 		(property "Value" "USB_A"
-			(at 0 8.5 360)
+			(at 0 8.5 0)
 			(layer "F.Fab")
 			(uuid "748e9e20-58c3-4894-92ae-28839334dcfc")
 			(effects
@@ -704,7 +704,7 @@
 			(uuid "3ae1d0da-5f83-4387-9616-6b56da3dbb85")
 		)
 		(fp_text user "PCB Edge"
-			(at 0 4.97 360)
+			(at 0 4.97 0)
 			(layer "Dwgs.User")
 			(uuid "8b91f490-2938-4c6a-88d7-18ebf9b642f6")
 			(effects
@@ -2149,6 +2149,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 107 46)
+		(end 168 108)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "91c2eb50-bc52-45a1-a522-a5b7785d3f8d")
+	)
 	(segment
 		(start 142.23 87.23)
 		(end 143 88)
@@ -2165,13 +2176,13 @@
 		(net 0)
 		(uuid "5f4e8a92-48b3-4991-8063-b7b66e14afb6")
 	)
-	(via
-		(at 147.5 85.5)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "aa5cfca5-c6f8-4785-b875-b39b92f2bec5")
+	(segment
+		(start 146.475 85.475)
+		(end 146.5 85.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "15fd7a76-ffd8-44c6-b1cc-843cfee7f5f4")
 	)
 	(segment
 		(start 150 78.35)
@@ -2181,6 +2192,14 @@
 		(net 1)
 		(uuid "c3d92f1c-e50e-4022-814e-40e37fec45bf")
 	)
+	(segment
+		(start 144.95 85.475)
+		(end 146.475 85.475)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "c7c507d5-dca5-4a4f-8a12-e2faffadee04")
+	)
 	(via
 		(at 150 82)
 		(size 0.6)
@@ -2188,6 +2207,30 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "0aa016b2-5171-43a0-8c71-75cd32e8c586")
+	)
+	(via
+		(at 146.5 85.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "34246698-9c99-4b34-87cb-1eb0c9c53716")
+	)
+	(segment
+		(start 150 82)
+		(end 146.5 85.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "66e07eca-912c-416d-a7d6-b113436784f2")
+	)
+	(segment
+		(start 146 86)
+		(end 145.77 86.23)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "77b8424e-f77a-4612-84e5-8cea39ca9d0b")
 	)
 	(segment
 		(start 145.77 86.23)
@@ -2198,12 +2241,12 @@
 		(uuid "8da5bd4b-6f24-4ca7-aef0-6c0cab5aa39d")
 	)
 	(segment
-		(start 150 82)
-		(end 145.77 86.23)
+		(start 146.5 85.5)
+		(end 146 86)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "a4e494ca-0fb4-402b-bb94-6de8cc68caab")
+		(uuid "b4f237d0-2796-4ce8-beca-94916afca714")
 	)
 	(segment
 		(start 149.95 84.05)
@@ -2212,6 +2255,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "03baf233-5644-4bbb-9589-f1b5c432ca21")
+	)
+	(segment
+		(start 123.9 62.4)
+		(end 123.9 58.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "1bc8b91f-42b6-4b49-8d52-154b4154d23c")
 	)
 	(segment
 		(start 150.85 93.85)
@@ -2228,6 +2279,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "2e31be98-aac4-4754-8c8f-a0b95c678da8")
+	)
+	(segment
+		(start 124 62.5)
+		(end 123.9 62.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "7136b87e-afd9-4b2e-904b-3511b5d9c705")
 	)
 	(segment
 		(start 151 93.7)
@@ -2260,6 +2319,30 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "ffa13153-0d6a-4c83-bcfa-3aed7d91076d")
+	)
+	(via
+		(at 124 62.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 2)
+		(uuid "cb2295e2-be1d-48da-896e-327e26d842de")
+	)
+	(segment
+		(start 137.58 93.85)
+		(end 124 80.27)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "563e4e5a-6ee0-441c-b218-ec7260126719")
+	)
+	(segment
+		(start 124 80.27)
+		(end 124 62.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "c10fe51c-f2a8-44f0-a081-4a7d0b42aad9")
 	)
 	(segment
 		(start 132.2 60)
